@@ -22,7 +22,7 @@ class UserCreate(BaseModel):
 
 @app.get("/")
 def health():
-    return {"status": "ok", "message": "k8s-app running"}
+    return {"status": "ok", "message": "k8s-app v2.0 running"}
 
 @app.get("/users")
 def get_users():
